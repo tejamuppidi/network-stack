@@ -46,10 +46,10 @@ int main(void)
     memcpy(buffer, &tcp, sizeof(tcp));
 
     tcp.checksum =
-        tcp_checksum(
-            &ip,
-            buffer,
-            sizeof(tcp));
+       htons(tcp_checksum(
+          &ip,
+          buffer,
+          sizeof(tcp)));
 
     memcpy(buffer, &tcp, sizeof(tcp));
 
