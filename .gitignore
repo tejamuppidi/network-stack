@@ -1,0 +1,29 @@
+# Object files
+*.o
+
+# Executables
+network_stack
+test_*
+
+# Build directories
+build/
+
+# Debug symbols
+*.out
+
+# Packet captures
+*.pcap
+
+# Editor files
+*.swp
+*~
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+cmake-build-*/
