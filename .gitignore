@@ -3,7 +3,7 @@
 
 # Executables
 network_stack
-test_*
+/test_*
 
 # Build directories
 build/
